@@ -96,12 +96,42 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    width: 90%;
+    margin: 0 auto;
+}
 
+.container {
+    background-color: lightgray;
+    border: 2px dotted gray;
+    padding: 0 2%;
+}
 
+span {
+    font-weight: bold;
+}
 
+li {
+    display: inline;
+    margin: 0 0.2em;
+}
 
+.navigation {
+    text-decoration: none;
+}
 
+table {
+    margin: 2%;
+    width: 60%;
+}
 
+td, th {
+    width: 33%;
+}
+
+th {
+    text-align: left;
+}
 
 
 
